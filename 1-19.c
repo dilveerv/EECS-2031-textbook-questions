@@ -4,6 +4,7 @@
 void reverse(char s[]);
 int length(char s[]);
 
+
 int main(){
     
     int c;
@@ -21,6 +22,8 @@ int main(){
     reverse(input);
     printf("After reverse: %s\n", input);
 }
+
+
 
 int length(char s[]){
     int length = 0;
