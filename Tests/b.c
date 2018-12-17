@@ -1,12 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "foo.h" 
 
-int main(int argc, char *argv[])
-{
+#define MX(A,B) (A>B)?A:B
+
+int main(int argc, char **argv){
   
-  int *p=3;
-  printf("%d",*p);
-  
-  
-  return 0;
+  while(1){
+      printf("print then wait 2 secs..\n");
+      sleep 2;
+  }
+
 }
